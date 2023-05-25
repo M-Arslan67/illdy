@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>illdy Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .site {
+            width: 100%;
+            height: 960px;
+            background-image: url(./images/front-page-header.jpg);
+            background-position: center;
+            padding: 1px;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 100px;
+        }
+
+        .logo {
+            width: 170px;
+            height: 100px;
+            margin-left: 160px;
+            margin-top: 35px;
+        }
+
+
+        .nav {
+            width: 800px;
+            height: 100px;
+            margin-left: 600px;
+            margin-top: -100px;
+
+        }
+
+        .nav ul {
+            list-style: none;
+        }
+
+        .nav ul li {
+            display: inline-block;
+            margin-top: 35px;
+            margin-left: 40px;
+            font-size: 17px;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .head {
+            margin-left: 290px;
+            margin-top: 210px;
+            font-size: 140px;
+            color: white;
+            font-style: normal;
+        }
+
+        .para {
+            color: white;
+            font-size: 17px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 50px;
+            border: 3px solid white;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            margin-left: 520px;
+            margin-top: 105px;
+            font-size: 20px;
+        }
+
+        .box02 {
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            margin-left: 750px;
+            margin-top: -50px;
+            background-color: rgb(242, 207, 35);
+            font-size: 20px
+        }
+
+        .div2 {
+            width: 100%;
+            height: 500px;
+            padding: 1px;
+
+        }
+
+        .head2 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .para2 {
+            text-align: center;
+            font-size: 17px;
+            color: grey;
+        }
+
+        .line1 {
+            width: 320px;
+            height: 2px;
+            background-color: rgb(235, 235, 235);
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+
+        .border1 {
+            width: 200px;
+            height: 5px;
+            background-color: rgb(241, 139, 109);
+            margin-left: 150px;
+            margin-top: -3px;
+            border-radius: 3px;
+        }
+
+        .dot1 {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(241, 139, 109);
+            margin-left: 345px;
+            margin-top: -7px;
+            border-radius: 5px;
+        }
+
+        .box1 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(241, 139, 109);
+            margin-left: 320px;
+            margin-top: -55px;
+        }
+
+        .line2 {
+            width: 300px;
+            height: 2px;
+            background-color: rgb(235, 235, 235);
+            margin-left: 600px;
+            margin-top: 20px;
+        }
+
+        .border2 {
+            width: 200px;
+            height: 5px;
+            background-color: rgb(241, 210, 4);
+            margin-left: 550px;
+            margin-top: -3px;
+            border-radius: 3px;
+        }
+
+        .dot2 {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(241, 210, 4);
+            margin-left: 745px;
+            margin-top: -7px;
+            border-radius: 5px;
+        }
+
+        .box2 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(241, 210, 4);
+            margin-left: 720px;
+            margin-top: -55px;
+        }
+
+        .line3 {
+            width: 300px;
+            height: 2px;
+            background-color: rgb(235, 235, 235);
+            margin-left: 1000px;
+            margin-top: 20px;
+        }
+
+        .border3 {
+            width: 200px;
+            height: 5px;
+            background-color: rgb(106, 77, 138);
+            margin-left: 1000px;
+            margin-top: -3px;
+            border-radius: 3px;
+        }
+
+        .dot3 {
+            width: 10px;
+            height: 10px;
+            background-color: rgb(106, 77, 138);
+            margin-left: 1190px;
+            margin-top: -8px;
+            border-radius: 5px;
+
+        }
+
+        .box3 {
+
+            width: 70px;
+            height: 30px;
+            background-color: rgb(106, 77, 138);
+            margin-left: 1160px;
+            margin-top: -55px;
+        }
+
+        .box1 p {
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .box2 p {
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .box3 p {
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .text1 {
+            color: rgb(241, 139, 109);
+            margin-top: 50px;
+            margin-left: 160px;
+        }
+
+        .text2 {
+            color: rgb(241, 210, 4);
+            margin-left: 560px;
+            margin-top: 40px;
+        }
+
+        .text3 {
+            margin-left: 1020px;
+            margin-top: 40px;
+            color: rgb(106, 77, 138);
+        }
+
+        .div3 {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(246, 246, 246);
+        }
+
+        .text01 {
+            color: rgb(84, 84, 84);
+            text-align: center;
+            font-size: 40px;
+            margin-top: 50px;
+        }
+
+        .text02 {
+            color: rgb(150, 149, 151);
+            text-align: center;
+        }
+
+        .img1 {
+            width: 25%;
+            height: 330px;
+
+        }
+
+        .img2 {
+            width: 25%;
+            height: 330px;
+        }
+
+        .img3 {
+            width: 24%;
+            height: 330px;
+
+        }
+
+        .img4 {
+            width: 25%;
+            height: 330px;
+        }
+
+        .div5 {
+            background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            width: 100%;
+            height: 550px;
+            background-size: cover;
+        }
+
+        .heading01 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .photo {
+            border-radius: 60px;
+            margin-left: 700px;
+            margin-top: 30px;
+        }
+
+        .text001 {
+
+            width: 1000px;
+            height: 150px;
+            background-color: rgb(106, 77, 138);
+            margin-left: 275px;
+            margin-top: 30px;
+        }
+
+        .text001 p {
+            text-align: center;
+            color: white;
+        }
+
+        .text001 h2 {
+            color: white;
+            text-align: center;
+            margin-top: 80px;
+            font-size: 25px;
+        }
+
+        .div6 {
+            width: 100%;
+            height: 450px;
+            background-color: white;
+
+        }
+
+        .div6 h1 {
+            color: rgb(84, 84, 84);
+            text-align: center;
+            font-size: 40px;
+
+        }
+
+        .div6 p {
+            text-align: center;
+            color: rgb(140, 149, 164);
+        }
+
+        .box6 {
+            width: 400px;
+            height: 180px;
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        .head6 {
+            color: rgb(241, 139, 109);
+            text-align: center;
+        }
+
+        .para6 {
+            text-align: center;
+            line-height: 22px;
+        }
+
+        .box06 {
+            width: 400px;
+            height: 180px;
+            margin-left: 550px;
+            margin-top: -185px;
+        }
+
+        .head06 {
+            text-align: center;
+            color: rgb(241, 210, 4);
+        }
+
+        .para06 {
+            line-height: 22px;
+        }
+
+        .box006 {
+            width: 400px;
+            height: 180px;
+            margin-left: 980px;
+            margin-top: -185px;
+        }
+
+        .head006 {
+            text-align: center;
+            color: rgb(106, 77, 138);
+
+        }
+
+        .para006 {
+            line-height: 22px;
+        }
+
+        .div7 {
+            width: 100%;
+            height: 900px;
+            background-color: rgb(34, 47, 54);
+        }
+
+        .div7 h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .div7 p {
+            color: rgb(136, 149, 151);
+            text-align: center;
+        }
+
+        .button {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(241, 210, 4);
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 690px;
+            color: white;
+        }
+
+        .img7 {
+            width: 350px;
+            height: 550px;
+            background-color: white;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+
+        .photo01 {
+            width: 350px;
+            height: 200px;
+        }
+
+        .head07 {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(94, 94, 94);
+            font-size: 25px;
+        }
+
+        .para007 {
+            line-height: 25px;
+        }
+
+        .text07 {
+            width: 100px;
+            height: 30px;
+            color: rgb(241, 210, 4);
+            margin-left: 120px;
+            margin-top: 50px;
+        }
+
+        .img07 {
+            width: 350px;
+            height: 590px;
+            background-color: white;
+            margin-left: 400px;
+            margin-top: -500px;
+        }
+
+        .photo02 {
+            width: 350px;
+            height: 200px;
+        }
+
+        .head007 {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(94, 94, 94);
+            font-size: 25px;
+        }
+
+        .text0007 {
+            line-height: 25px;
+        }
+
+        .txt {
+            width: 100px;
+            height: 30px;
+            margin-left: 120px;
+            margin-top: 50px;
+            color: rgb(241, 210, 4);
+        }
+
+        .step3 {
+            width: 350px;
+            height: 550px;
+            background-color: white;
+            margin-left: 400px;
+            margin-top: -495px;
+        }
+
+        .img8 {
+            width: 350px;
+            height: 200px;
+        }
+
+        .head8 {
+            text-align: center;
+            font-size: 25px;
+            color: rgb(94, 94, 94);
+        }
+
+        .para8 {
+            line-height: 25px;
+        }
+
+        .text8 {
+            color: rgb(241, 210, 4);
+            width: 100px;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 120px;
+        }
+
+        .div08 {
+            width: 100%;
+            height: 150px;
+            background-image: url(./images/front-page-counter.jpg);
+            background-position: center;
+            margin-top: 50px;
+        }
+
+        .pro {
+            font-size: 25px;
+            color: white;
+            margin-left: 300px;
+
+        }
+
+        .line20 {
+            width: 1px;
+            height: 40px;
+            background-color: white;
+            margin-top: -30px;
+            margin-left: 580px;
+        }
+
+        .client {
+            color: white;
+            margin-left: 720px;
+            margin-top: -30px;
+        }
+
+        .line200 {
+            width: 1px;
+            height: 40px;
+            background-color: white;
+            margin-top: -30px;
+            margin-left: 980px;
+        }
+
+        .coffes {
+            color: white;
+            margin-left: 1120px;
+            margin-top: -30px;
+        }
+
+        .div8 {
+            width: 100%;
+            height: 550px;
+            background-color: rgb(246, 246, 246);
+        }
+
+        .div9 {
+            width: 100%;
+            height: 500px;
+            background-color: rgb(243, 243, 243);
+            margin-top: -100px;
+        
+        }
+
+        .team1 {
+            text-align: center;
+            margin-top: 130px;
+            font-size: 30px;
+        }
+
+        .team2 {
+            text-align: center;
+            color: black;
+
+        }
+
+        .group {
+            width: 100%;
+            height: 300px;
+            margin-top: 150px;
+        }
+
+        .mark {
+            width: 400px;
+            height: 250px;
+
+            margin-top: 50px;
+            margin-left: 200px;
+        }
+
+        .mark1 {
+            border-radius: 70px;
+        }
+
+        .mark2 {
+            margin-left: 150px;
+            margin-top: -120px;
+            color: rgb(94, 94, 94);
+        }
+
+        .mark3 {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        .mark4 {
+            margin-left: 80px;
+            margin-top: 30px;
+
+        }
+
+        .jane {
+            width: 400px;
+            height: 250px;
+            margin-left: 600px;
+
+            margin-top: -250px;
+        }
+
+        .jane1 {
+            border-radius: 50px;
+
+        }
+
+        .jane2 {
+            margin-left: 130px;
+            margin-top: -120px;
+            color: rgb(94, 94, 94);
+        }
+
+        .jane3 {
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+
+        .jane4 {
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+
+        .john {
+            width: 400px;
+            height: 250px;
+            margin-left: 1010px;
+
+            margin-top: -250px;
+        }
+
+        .john1 {
+            border-radius: 50px;
+        }
+
+        .john2 {
+            margin-left: 130px;
+            margin-top: -115px;
+            color: rgb(94, 94, 94);
+        }
+
+        .john3 {
+            margin-right: 60px;
+            margin-top: 5px;
+        }
+
+        .john4 {
+            margin-top: 20px;
+            margin-left: 75px;
+        }
+
+        .contact {
+            width: 100%;
+            height: 700px;
+        }
+
+        .contact1 {
+            text-align: center;
+            font-size: 35px;
+            margin-top: 50px;
+        }
+
+        .contact2 {
+            width: 100%;
+            height: 200px;
+
+        }
+
+        .cont1 {
+            color: rgb(241, 210, 4);
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        .cont2 {
+            width: 6px;
+            height: 30px;
+            color: black;
+        }
+
+        .cont3 {
+            margin-left: 200px;
+            margin-top: -60px;
+            color: rgb(140, 149, 151);
+            line-height: 25px;
+        }
+
+        .cont4 {
+            margin-left: 560px;
+            margin-top: -35px;
+            color: rgb(241, 210, 4);
+        }
+
+        .cont5 {
+            width: 20px;
+            height: 50px;
+            color: black;
+
+        }
+
+        .cont6 {
+            margin-left: 750px;
+            margin-top: -75px;
+            color: rgb(140, 149, 164);
+            line-height: 25px;
+        }
+
+        .bio {
+            width: 1200px;
+            height: 350px;
+            border: 1px solid black;
+            margin-left: 100px;
+            margin-top: -70px;
+        }
+
+        .bio1 {
+            color: rgb(140, 149, 164);
+            margin-right: 1170px;
+            margin-top: 50px;
+        }
+
+        .bio2 {
+            width: 420px;
+            height: 30px;
+            border: 1px solid rgb(225, 225, 225);
+            margin-left: 95px;
+            margin-top: 5px;
+        }
+
+        .bio3 {
+            margin-right: 250px;
+            color: grey;
+            margin-top: -55px;
+        }
+
+        .bio4 {
+            width: 420px;
+            height: 30px;
+            border: 1px solid rgb(225, 225, 225);
+            margin-left: 560px;
+            margin-top: 5px;
+        }
+
+        .bio5 {
+            color: grey;
+            margin-left: 600px;
+            margin-top: -55px;
+        }
+
+        .bio6 {
+            width: 420px;
+            height: 30px;
+            border: 1px solid rgb(225, 225, 225);
+            margin-left: 1030px;
+            margin-top: 5px;
+        }
+
+        .bio7 {
+            color: grey;
+            margin-right: 1230px;
+            margin-top: 10px;
+        }
+
+        .bio8 {
+            width: 1360px;
+            height: 250px;
+            border: 2px solid rgb(225, 225, 225);
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+
+        .bio9 {
+            width: 150px;
+            height: 40px;
+            background-color: rgb(241, 210, 4);
+            margin-left: 1250px;
+            margin-top: 20px;
+            border-radius: 5px;
+            padding: 1px;
+        }
+
+        .bio10 {
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .black {
+            width: 100%;
+            height: 300px;
+            background-color: rgb(41, 40, 37);
+            padding: 1px;
+        }
+
+        .black1 {
+            width: 300px;
+            height: 250px;
+
+            margin-top: 40px;
+            margin-left: 70px;
+        }
+
+        .products {
+            text-align: center;
+            color: white;
+        }
+
+        .product1 {
+            margin-top: 20px;
+            margin-right: 30px;
+        }
+
+        .product2 {
+            margin-top: 20px;
+            margin-right: 67px;
+        }
+
+        .product3 {
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+
+        .product4 {
+            margin-top: 20px;
+            margin-right: 5px;
+        }
+
+        .black2 {
+            width: 300px;
+            height: 250px;
+
+            margin-left: 500px;
+            margin-top: -250px;
+        }
+
+        .info {
+            color: white;
+            margin-left: 50px;
+        }
+
+        .info1 {
+            margin-right: 100px;
+            margin-top: 20px;
+        }
+
+        .info2 {
+            margin-top: 20px;
+            margin-right: 110px;
+        }
+
+        .info3 {
+            margin-top: 20px;
+            margin-right: 90px;
+        }
+
+        .info4 {
+            margin-top: 20px;
+            margin-right: 115px;
+        }
+
+        .black3 {
+            width: 300px;
+            height: 250px;
+
+            margin-left: 950px;
+            margin-top: -250px;
+        }
+
+        .support {
+            color: white;
+            margin-left: 50px;
+        }
+
+        .support1 {
+            margin-top: 20px;
+            margin-right: 40px;
+        }
+
+        .support2 {
+            margin-right: 100px;
+            margin-top: 20px;
+        }
+
+        .support3 {
+            margin-right: 85px;
+            margin-top: 20px;
+        }
+
+        .support4 {
+            margin-top: 20px;
+            margin-right: 83px;
+        }
+
+        .last {
+            width: 100%;
+            height: 80px;
+            background-color: rgb(36, 35, 32);
+            padding: 1px;
+        }
+
+        .last1 {
+            margin-right: 80px;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .last2 {
+            margin-left: 300px;
+            margin-top: -17px;
+            color: rgb(255, 255, 255);
+        }
+
+        .pink {
+            margin-top:50px ;
+        }
+
+        .yellow {
+            margin-top:-20px ;
+        }
+
+        .puple {
+            margin-top: -80px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="site">
+        <div class="navbar">
+            <div class="logo"><img src="./images/cropped-footer-logo-1.png" alt=""></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="head">
+            <h6>Clean.Slick.Pixel Perfect</h6>
+        </div>
+        <div class="para">
+            <p>IIdly is a great one-page theme, perfect for developers and designers but also for someone who just wants
+                a <br> new website for his business.Try it now! </p>
+        </div>
+        <div class="box">
+            <p>Learn more</p>
+        </div>
+        <div class="box02">
+            <p>Download</p>
+        </div>
+    </div>
+
+    <div class="div2">
+        <h1 class="head2"> <br> About</h1>
+        <p class="para2"> <br> <br> <br> It is an amazng one-page theme with great features that offers an incredible
+            experience. It is easy to install, make changes, adapt for your <br> business. A modern design with clean
+            lines and styling for a wide variety of content, exactly how a business design should be. You can add <br>
+            as many images as you want to the main header area and turn them into slider.</p>
+
+        <div class="pink">
+
+            <div class="line1"></div>
+            <div class="border1"></div>
+            <div class="dot1"></div>
+            <div class="box1">
+                <p>60%</p>
+            </div>
+            <div class="text1">
+                <p>A Typography</p>
+            </div>
+        </div>
+
+        <div class="yellow">
+            <div class="line2"></div>
+            <div class="border2"></div>
+            <div class="dot2"></div>
+            <div class="box2">
+                <p>82%</p>
+            </div>
+            <div class="text2">
+                <p>Design</p>
+            </div>
+        </div>
+
+        <div class="purple">
+
+            <div class="line3"></div>
+            <div class="border3"></div>
+            <div class="dot3"></div>
+            <div class="box3">
+                <p>86%</p>
+            </div>
+            <div class="text3">
+                <p>Development</p>
+            </div>
+        </div>
+    
+    </div>
+   
+    <div class="div3">
+        <h6 class="text01">Projects</h6>
+        <p class="text02">You'll love our work. Check it out!</p>
+    </div>
+    <div class="div4">
+        <img class="img1" src="./images/front-page-project-2.jpg" alt="">
+        <img class="img2" src="./images/front-page-project-3.jpg" alt="">
+        <img class="img3" src="./images/front-page-project-1.jpg" alt="">
+        <img class="img4" src="./images/front-page-project-4.jpg" alt="">
+    </div>
+    <div class="div5">
+        <h1 class="heading01"> <br> Testimonials</h1>
+        <img class="photo" src="./images/mike-muller-127x127.jpg" alt="">
+        <div class="text001">
+            <p class="t1"> <br> <br> "Awesome theme with great design and awesome support.
+                If you don't how to code your own WordPress theme, but you still <br> want a good looking
+                website for your business. ILLdy might be exactly what you need. It is a slick theme with alot of
+                features
+                to <br> chose from."</p>
+            <h2 class="t2"> Mike Muller</h2>
+
+        </div>
+
+    </div>
+    <div class="div6">
+        <h1 class="heading02"> <br> Services</h1>
+        <p class="para02"> <br> In order to help you grow your business, our carefully
+            selected experts can advice you in the following areas:
+        </p>
+        <div class="box6">
+            <h2 class="head6">Web Design</h2>
+            <p class="para6"><br> Consectetur adipiscing elit. Praesent molestie urna <br> hendrerit
+                erat tincidunt tempus. Aliquam a leo risus. <br> Fusce a metus non augue dapibus
+                porttitor at in <br> mauris. Pellentesque commodo...</p>
+        </div>
+
+        <div class="box06">
+            <h2 class="head06">Web Development</h2>
+            <p class="para06"> <br> Consectetur adipiscing elit. Praesent molestie urna <br> hendrerit
+                erat tincidunt tempus. Aliquam a leo risus. <br> Fusce a metus non augue dapibus porttitor
+                at in <br> mauris. Pellentesque commodo...
+            </p>
+        </div>
+
+        <div class="box006">
+            <h2 class="head006">Seo Analysis</h2>
+            <p class="para006"> <br> Consectetur adipiscing elit. Praesent molestie urna <br> hendrerit erat
+                tincidunt
+                tempus. Aliquam a leo risus. <br> Fusce a metus non augue dapibus porttitor at in <br> mauris.
+                Pellentesque
+                commodo...</p>
+        </div>
+    </div>
+
+    <div class="div7">
+
+        <h1 class="head7"> <br><br> Latest News</h1>
+        <p class="para7"> <br> If you are interested in the latest articles in the industry,
+            take a sneak peek at our blog. You have nothing to loose!
+        </p>
+        <button class="button">SEE BLOG</button>
+
+        <div class="img7">
+            <img class="photo01" src="./images/photo-1449168013943-3a15804bb41c-360x213.jpg" alt="">
+            <h5 class="head07">We Have Made Illdy <br> Theme SEO Friendly</h1>
+                <p class="para007"> <br> <br> Illdy One Page WordPress theme is fully <br>
+                    SEO friendly and is ready to help you to <br> achieve the highest rankings…
+                </p>
+                <div class="text07">Read more
+                </div>
+                <div class="img07">
+                    <img class="photo02" src="./images/photo-1450101215322-bf5cd27642fc-360x213.jpg" alt="">
+                    <h3 class="head007">Stunning One Page WordPress Theme for them
+            </h5>
+            <p class="text0007"> <br><br> This theme is not just free, it is free for <br> private and
+                commercial use since it is <br> licensed under GPL…
+            </p>
+            <div class="txt">Read more</div>
+
+            <div class="step3">
+                <img class="img8" src="./images/photo-1447687643809-e05fd462f350-360x213.jpg" alt="">
+                <h5 class="head8"> <br> Hello World!</h5>
+                <p class="para8"> <br><br><br> Welcome to colorlib.com. This is our first
+                    post around Illdy WordPress theme. Now show that you can
+                    make out of it.…
+                </p>
+                <div class="text8">Read more</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div08">
+        <h5 class="pro"> <br><br> Projects</h5>
+        <div class="line20"></div>
+        <h2 class="client">Clients</h2>
+        <div class="line200"></div>
+        <h2 class="coffes">Coffes</h2>
+    </div>
+
+    <div class="div9">
+
+        <h2 class="team1">Team</h2>
+        <p class="team2">Meet the people that are going to take
+            your business to the next level.</p>
+        <div class="group">
+            <div class="mark">
+                <img class="mark1" src="./images/front-page-team-1.jpg" alt="">
+                <h2 class="mark2">Mark Lawrence</h2>
+                <p class="mark3">Web Designer</p>
+                <p class="mark4">Creative, detail-oriented, <br>always focused. </p>
+            </div>
+
+            <div class="jane">
+                <img class="jane1" src="./images/front-page-team-2.jpg" alt="">
+                <h2 class="jane2">Jane Stenton</h2>
+                <p class="jane3">SEO Specialist</p>
+                <p class="jane4">Curious, tech-geeck and gets <br> serious when it
+                    comes to <br> work.</p>
+            </div>
+            <div class="john">
+                <img class="john1" src="./images/front-page-team-3.jpg" alt="">
+                <h2 class="john2">John Smith</h2>
+                <p class="john3">Developer</p>
+                <p class="john4">Enthusiastic, passionate with <br> great sense
+                    of humor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h6 class="contact1">Contact Us</h6>
+        <div class="contact2">
+            <div class="cont1">Address</div>
+            <div class="cont2"></div>
+            <div class="cont3">Street 221B Baker Street,<br>
+                London, UK</div>
+            <div class="cont4">Customer Support
+            </div>
+            <div class="cont5"></div>
+            <div class="cont6">E-mail: contact@site.com <br> Phone:
+                (555) 555-5555</div>
+
+            <p class="bio1">Your Name (required)</p>
+            <div class="bio2"></div>
+            <p class="bio3">Your Email (required)
+            </p>
+            <div class="bio4"></div>
+            <p class="bio5">Subject</p>
+            <div class="bio6"></div>
+            <p class="bio7">Your Message
+            </p>
+            <div class="bio8"></div>
+            <div class="bio9">
+                <h3 class="bio10">Send</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="black">
+
+        <div class="black1">
+            <h2 class="products">PRODUCTS</h2>
+            <p class="product1">Our Work</p>
+            <p class="product2">Club</p>
+            <p class="product3">News</p>
+            <p class="product4">Announcement</p>
+        </div>
+
+        <div class="black2">
+            <h2 class="info">INFORMATION</h2>
+            <p class="info1">Pricing</p>
+            <p class="info2">Terms</p>
+            <p class="info3">Affiliates</p>
+            <p class="info4">Blog</p>
+        </div>
+
+        <div class="black3">
+            <h2 class="support">SUPPORT</h2>
+            <p class="support1">Documentation</p>
+            <p class="support2">FAQs</p>
+            <p class="support3">Forums</p>
+            <p class="support4">Contact</p>
+        </div>
+    </div>
+
+    <div class="last">
+        <p class="last1">Theme: Illdy.</p>
+        <p class="last2">© Copyright 2017. All Rights Reserved.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
